@@ -1,0 +1,61 @@
+:root {
+  --color-primary: #007bff;
+  --color-primary-hover: #4d9df3;
+  --color-primary-active: #2776ca;
+  --color-secondary: #818b95;
+  --color-secondary-hover: #9aa2ab;
+  --color-secondary-active: #687078;
+  --color-danger: #dc3545;
+  --color-danger-hover: #da5b68;
+  --color-danger-active: #dd1b2e;
+  --color-white: #ffffff;
+}
+
+.button {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.7rem;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  color: var(--color-white);
+  transition: background-color 0.3s;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.button--primary:active {
+  background-color: var(--color-primary-active);
+}
+
+.button--secondary {
+  background-color: var(--color-secondary);
+}
+
+.button--secondary:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.button--secondary:active {
+  background-color: var(--color-secondary-active);
+}
+
+.button--danger {
+  background-color: var(--color-danger);
+}
+
+.button--danger:hover {
+  background-color: var(--color-danger-hover);
+}
+
+.button--danger:active {
+  background-color: var(--color-danger-active);
+}

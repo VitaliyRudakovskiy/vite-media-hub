@@ -1,0 +1,26 @@
+:root {
+  --color-select: #dbe1e8;
+  --color-select-hover: #c8ced5;
+  --color-select-active: #9e9fa0;
+}
+
+.selectButton {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: var(--color-select);
+  border-radius: 4px;
+  padding: 0.5rem;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.selectButton:hover {
+  background-color: var(--color-select-hover);
+}
+
+.selectButton:focus,
+.selectButton:active {
+  background-color: var(--color-select-active);
+}
